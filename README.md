@@ -1,3 +1,12 @@
+# eSpeak NG customize
+Fix rules, list, phs and run cmake.
+ ```
+   git clone https://github.com/eninn/espeak-ng-custom.git
+   mkdir /home/espeak-ng-custom
+   ./autogen.sh && ./configure
+   sudo make && make install
+ ```
+
 # eSpeak NG Text-to-Speech
 
 - [Features](#features)
